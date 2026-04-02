@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "GassHub",
+    "slug": "gasshub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-fixed.png",
+    "scheme": "gasshub",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gasshub.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs access to microphone to record voice messages.",
+        "NSUserNotificationsUsageDescription": "GassHub would like to send you notifications about new job opportunities, internships, learning materials, and important announcements.",
+        "NSCameraUsageDescription": "This app needs camera access to take photos for profile and reports.",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to select images for profile and reports."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/icon-fixed.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.gasshub.app",
+      "versionCode": 1,
+      "permissions": [
+        "RECORD_AUDIO",
+        "POST_NOTIFICATIONS",
+        "VIBRATE",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/gass-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/gasslogo_display.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#3498db"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "60a169f1-3d89-407d-87d0-a37aa44f6fe9"
+      }
+    }
+  }
+}

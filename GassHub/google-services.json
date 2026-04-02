@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "562686591984",
+    "firebase_url": "https://myfirst-386de-default-rtdb.firebaseio.com",
+    "project_id": "myfirst-386de",
+    "storage_bucket": "myfirst-386de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562686591984:android:76fa41b0cc9c7499c95335",
+        "android_client_info": {
+          "package_name": "gasshub.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562686591984-7s0f4r9i85q1kptcj535arlg3eoscn4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8EVamhIlHkc1IzbHhb3LAZP6NwbLsMOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562686591984-7s0f4r9i85q1kptcj535arlg3eoscn4n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "562686591984-7qf9oaspj0jlvht9e7upv6q72jb236f8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gasshub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
